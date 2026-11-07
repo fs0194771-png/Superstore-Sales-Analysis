@@ -6,6 +6,8 @@ This project analyzes Superstore sales transaction data from 2019 to 2022 to eva
 
 The main objective is to understand why the business generates high sales but still operates at a net loss, and to identify the key areas that can be improved to increase profitability.
 
+The analysis was performed using **Python**, and an interactive dashboard was built using **Power BI** to explore the results in a more dynamic way. The project is also published and version-controlled on **GitHub**.
+
 ---
 
 ## Business Problem
@@ -62,6 +64,8 @@ It includes information about:
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- Power BI (interactive dashboard)
+- GitHub (version control and project hosting)
 
 ---
 
@@ -75,9 +79,10 @@ The analysis follows a structured data analysis workflow:
 4. Data Wrangling
 5. Exploratory Data Analysis (EDA)
 6. Data Visualization
-7. Business Insights
-8. Recommendations
-9. Conclusion
+7. Interactive Dashboard (Power BI)
+8. Business Insights
+9. Recommendations
+10. Conclusion
 
 ---
 
@@ -313,6 +318,58 @@ However, there was no strong seasonal pattern capable of explaining the overall 
 
 ---
 
+# Interactive Power BI Dashboard
+
+In addition to the Python analysis, I built an interactive multi-page dashboard using **Power BI** to explore the Superstore sales and profitability data (2019–2022) in a more dynamic way.
+
+### Dashboard Link
+
+🔗 **[Open the Interactive Superstore Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjA3YWM0Y2EtNDYxMS00YTI3LWI3ZGQtNDA1MGFjZTFmMTczIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9)**
+
+### Dashboard Pages
+
+#### 1. Executive Overview
+A high-level summary of the overall business performance, including the main KPIs for sales, profit, and profit margin.
+
+![Executive Overview](images/Executive%20Overview.png)
+
+#### 2. Sales
+Shows how sales perform across time, categories, and other business dimensions.
+
+![Sales](images/Sales.png)
+
+#### 3. Profitability
+Focuses on profit and profit margin, and highlights where the business gains or loses money.
+
+![Profitability](images/Profitability.png)
+
+#### 4. Profitability Analysis
+A deeper look into the drivers of profitability across the different business dimensions.
+
+![Profitability Analysis](images/Profitability%20Analysis.png)
+
+#### 5. Discounts
+Explores how discount levels affect sales, profit, and profit margin.
+
+![Discounts](images/Discounts.png)
+
+#### 6. Products
+Analyzes the performance of categories, sub-categories, and individual products.
+
+![Products](images/Products.png)
+
+#### 7. Customers
+Evaluates customers and customer segments based on sales and profitability.
+
+![Customers](images/Customers.png)
+
+#### 8. Geography
+Shows how sales and profit are distributed across regions, states, and cities.
+
+![Geography](images/Geography.png)
+
+---
+
 # Data Visualization
 
 The following visualizations highlight the most important findings from the analysis.
@@ -490,6 +547,8 @@ Therefore, the main opportunities for improvement are:
 - Monitoring customer and location profitability
 - Focusing growth on profitable products and categories rather than sales volume alone
 
+Overall, the project demonstrates how data cleaning, exploratory data analysis, and visualization using Python, together with an interactive Power BI dashboard, can be used to identify meaningful patterns and support data-driven business decisions.
+
 ---
 
 # Project Structure
@@ -504,12 +563,20 @@ Superstore-Sales-Analysis/
 │   └── Superstore_Sales_Analysis.ipynb
 │
 ├── images/
+│   ├── Customers.png
 │   ├── Discount vs Profit Margin.png
+│   ├── Discounts.png
+│   ├── Executive Overview.png
+│   ├── Geography.png
 │   ├── Monthly Profit.png
+│   ├── Products.png
 │   ├── Profit by Category.png
 │   ├── Profit by Sub-Category.png
 │   ├── Profit by Year.png
-│   └── Sales by Category.png
+│   ├── Profitability Analysis.png
+│   ├── Profitability.png
+│   ├── Sales by Category.png
+│   └── Sales.png
 │
 └── README.md
 ```
