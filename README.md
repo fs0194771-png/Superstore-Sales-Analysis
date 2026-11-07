@@ -331,42 +331,42 @@ In addition to the Python analysis, I built an interactive multi-page dashboard 
 #### 1. Executive Overview
 A high-level summary of the overall business performance, including the main KPIs for sales, profit, and profit margin.
 
-![Executive Overview](images/Executive%20Overview.png)
+![Executive Overview](Dashboard_Screenshots/Executive%20Overview.png)
 
 #### 2. Sales
 Shows how sales perform across time, categories, and other business dimensions.
 
-![Sales](images/Sales.png)
+![Sales](Dashboard_Screenshots/Sales.png)
 
 #### 3. Profitability
 Focuses on profit and profit margin, and highlights where the business gains or loses money.
 
-![Profitability](images/Profitability.png)
+![Profitability](Dashboard_Screenshots/Profitability.png)
 
 #### 4. Profitability Analysis
 A deeper look into the drivers of profitability across the different business dimensions.
 
-![Profitability Analysis](images/Profitability%20Analysis.png)
+![Profitability Analysis](Dashboard_Screenshots/Profitability%20Analysis.png)
 
 #### 5. Discounts
 Explores how discount levels affect sales, profit, and profit margin.
 
-![Discounts](images/Discounts.png)
+![Discounts](Dashboard_Screenshots/Discounts.png)
 
 #### 6. Products
 Analyzes the performance of categories, sub-categories, and individual products.
 
-![Products](images/Products.png)
+![Products](Dashboard_Screenshots/Products.png)
 
 #### 7. Customers
 Evaluates customers and customer segments based on sales and profitability.
 
-![Customers](images/Customers.png)
+![Customers](Dashboard_Screenshots/Customers.png)
 
 #### 8. Geography
 Shows how sales and profit are distributed across regions, states, and cities.
 
-![Geography](images/Geography.png)
+![Geography](Dashboard_Screenshots/Geography.png)
 
 ---
 
@@ -563,19 +563,21 @@ Superstore-Sales-Analysis/
 │   └── Superstore_Sales_Analysis.ipynb
 │
 ├── images/
-│   ├── Customers.png
 │   ├── Discount vs Profit Margin.png
-│   ├── Discounts.png
-│   ├── Executive Overview.png
-│   ├── Geography.png
 │   ├── Monthly Profit.png
-│   ├── Products.png
 │   ├── Profit by Category.png
 │   ├── Profit by Sub-Category.png
 │   ├── Profit by Year.png
+│   └── Sales by Category.png
+│
+├── Dashboard_Screenshots/
+│   ├── Customers.png
+│   ├── Discounts.png
+│   ├── Executive Overview.png
+│   ├── Geography.png
+│   ├── Products.png
 │   ├── Profitability Analysis.png
 │   ├── Profitability.png
-│   ├── Sales by Category.png
 │   └── Sales.png
 │
 └── README.md
